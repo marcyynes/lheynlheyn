@@ -266,7 +266,7 @@ useEffect(() => {
               } else if (btn.action === "close") {
                 bgm?.stop();
                 voice?.stop();
-                router.push("/page4");
+                router.push("/page5");
               }
             }}
             className={`relative w-56 h-64 bg-gradient-to-br ${btn.color} border border-white/30 rounded-2xl 
