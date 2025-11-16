@@ -284,7 +284,8 @@ export default function Page2() {
       {positions.map((pos, idx) => (
         <motion.span
           key={idx}
-          onClick={() => playVoice(memberEmojis[idx].voice)}
+          onClick={() => playVoice(memberEmojis[idx]?.voice ?? "")}
+
           className="absolute cursor-pointer select-none z-[8]"
           style={{
             top: `${pos.top}%`,
@@ -295,7 +296,7 @@ export default function Page2() {
           whileHover={{ scale: 1.25 }}
           transition={{ type: "spring", stiffness: 200, damping: 16 }}
         >
-          {memberEmojis[idx].emoji}
+          {memberEmojis[idx]?.emoji}
         </motion.span>
       ))}
 

@@ -293,14 +293,15 @@ useEffect(() => {
           >
             <div className="relative w-full max-w-md">
               <Image
-                src={throwbackSlides[slide].img}
-                alt="Throwback"
+                src={throwbackSlides[slide]?.img ?? ""}
+                alt={throwbackSlides[slide]?.caption ?? "Throwback image"}
+
                 width={520}
                 height={520}
                 className="rounded-2xl shadow-lg mx-auto object-cover"
               />
               <p className="mt-4 text-lg text-white font-[Dancing_Script]">
-                {throwbackSlides[slide].caption}
+                {throwbackSlides[slide]?.caption}
               </p>
               <div className="flex justify-center gap-4 mt-6">
                 <Button onClick={() => prevSlide(setSlide, throwbackSlides)}>Previous</Button>
@@ -352,18 +353,19 @@ useEffect(() => {
           >
             <div className="relative w-full max-w-3xl bg-white/10 border border-white/20 rounded-2xl shadow-lg p-6 flex flex-col sm:flex-row items-center gap-6">
               <Image
-                src={friendsSlides[slide].img}
-                alt={friendsSlides[slide].name}
+                src={friendsSlides[slide]?.img ?? ""}
+                alt={friendsSlides[slide]?.name ?? "Friend"}
+
                 width={300}
                 height={300}
                 className="rounded-2xl object-cover"
               />
               <div className="flex-1 text-left">
                 <h3 className="text-3xl text-white font-[Dancing_Script] mb-3">
-                  From: {friendsSlides[slide].name}
+                  From: {friendsSlides[slide]?.name}
                 </h3>
                 <pre className="whitespace-pre-wrap text-white/90 text-lg leading-relaxed font-[Dancing_Script]">
-                  {friendsSlides[slide].message}
+                  {friendsSlides[slide]?.message}
                 </pre>
               </div>
             </div>
