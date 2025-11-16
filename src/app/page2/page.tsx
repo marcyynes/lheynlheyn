@@ -286,9 +286,6 @@ export default function Page2() {
           key={idx}
           onClick={() => playVoice(memberEmojis[idx]!.voice)}
 
-
-
-
           className="absolute cursor-pointer select-none z-[8]"
           style={{
             top: `${pos.top}%`,
