@@ -33,11 +33,11 @@ const friendsSlides = [
  },
   { img: "/assets/images/friends/hazel.jpg", name: "Hazel", message: `To my lheyn, 
 Eto siguro isa sa fav kong pic naten + yung sa debut mo at ko because it sums up our friendship nways!!! Happy Birthday bebe ko! I just wanna say na i appreciate our friendship and I appreciate you so much. I hope you enjoy your day today and i hope na makapag bonding na tayo soon. I miss our little chikas, our little svt bonding moments, our corridor pasahan ng sagot lalo pag exam. I just miss having you in the same school na kaya ko kulitin, kaya ko inisin, kaya ko ayain any time i want.  
-Nways to my forever lover (sorry rence ako nauna sayo, and ako ang bebe nya forever) happy happy birthday im so grateful na i got to celebrate it with you since grade 7.
- 
-  I love you forever and always alaine ko always remember that. My always, in all ways.
+
 `},
-    // { img: "/assets/images/friends/hazel2.jpg", name: "Hazel", message: ``},
+  { img: "/assets/images/friends/hazel2.jpg", name: "Hazel", message: `Nways to my forever lover (sorry rence ako nauna sayo, and ako ang bebe nya forever) happy happy birthday im so grateful na i got to celebrate it with you since grade 7.
+ 
+  I love you forever and always alaine ko always remember that. My always, in all ways.`},
   { img: "/assets/images/friends/carylle.jpg", name: "Carylle", message: `happy birthday, my alaine! thank you for making my college life bearable and for being my best friend. I’m always here for you no matter what happen, you can always rant to me! Hope you enjoy your day, I love you! 😽🩵` },
   { img: "/assets/images/friends/ynah.jpg", name: "Ynah", message:
       "Apiiii Birthday, Alainee. Mabuhay ka hangga't gusto mo🥳 Thank you sa pagtuturo kapag may activities tayo. Godbless you😇🤙",
@@ -266,7 +266,7 @@ useEffect(() => {
               } else if (btn.action === "close") {
                 bgm?.stop();
                 voice?.stop();
-                router.push("/page5");
+                router.push("/page4");
               }
             }}
             className={`relative w-56 h-64 bg-gradient-to-br ${btn.color} border border-white/30 rounded-2xl 
