@@ -284,7 +284,8 @@ export default function Page2() {
       {positions.map((pos, idx) => (
         <motion.span
           key={idx}
-          onClick={() => playVoice(memberEmojis[idx]!.voice)}
+          onClick={() => playVoice(memberEmojis[idx]?.voice ?? "")}
+
 
 
           className="absolute cursor-pointer select-none z-[8]"
