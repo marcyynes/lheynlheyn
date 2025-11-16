@@ -16,7 +16,7 @@ const allura = Allura({ weight: "400", subsets: ["latin"] });
 const throwbackSlides = [
   { img: "/assets/images/throwback1.jpg", caption: "Yey three na siya" },
   { img: "/assets/images/throwback2.jpg", caption: "Wowowow grumaduate na kaso gutom na rin" },
-  { img: "/assets/images/throwback3.jpg", caption: "hala sunog siya !!" },
+  { img: "/assets/images/throwback3.jpg", caption: "hala sunog siya !" },
   { img: "/assets/images/throwback4.jpg", caption: "kyot" },
   { img: "/assets/images/throwback5.jpg", caption: "itadakimasu !!" },
   { img: "/assets/images/throwback6.jpg", caption: "suspect suspect, nangunguha ng aso" },

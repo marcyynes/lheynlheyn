@@ -94,7 +94,7 @@
 //         </p>
 
 //         <p className="mt-8 text-3xl font-[Dancing_Script] text-pink-300 drop-shadow-[0_0_8px_rgba(255,160,200,0.6)]">
-//           — xoxo, rence 💖
+//           — xoxo, rence 💖 <3
 //         </p>
 
 //         <Button
